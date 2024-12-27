@@ -372,10 +372,10 @@ Then we need to create our base option and it's values.
 $option = \Lunar\Models\ProductOption::create([
     'name' => [
         'en' => 'Colour',
-    ];
+    ],
     'label' => [
         'en' => 'Colour',
-    ];
+    ],
 ]);
 
 $blueOption = $option->values()->create([
